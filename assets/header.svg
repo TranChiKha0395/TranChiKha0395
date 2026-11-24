@@ -1,0 +1,65 @@
+<svg width="850" height="175" viewBox="0 0 850 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="50%" stop-color="#FCE7F3"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BAE6FD" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#FBCFE8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FDE68A" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title {
+      font: 700 40px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      fill: #1E293B;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font: 500 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      fill: #475569;
+    }
+    .float-slow {
+      animation: floatY 4.5s ease-in-out infinite;
+    }
+    .float-fast {
+      animation: floatY 3.2s ease-in-out infinite reverse;
+    }
+    .twinkle {
+      animation: pulse 2.6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    @keyframes floatY {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Rounded pastel background -->
+  <rect x="0" y="0" width="850" height="175" rx="18" fill="url(#bg)"/>
+
+  <!-- Soft decorative wave -->
+  <path d="M0 130 Q 212 95 425 130 T 850 120 L 850 175 L 0 175 Z" fill="url(#wave)"/>
+
+  <!-- Playful floating shapes -->
+  <circle cx="88" cy="52" r="18" fill="#FFFFFF" fill-opacity="0.55" class="float-slow"/>
+  <circle cx="115" cy="72" r="8" fill="#F97316" fill-opacity="0.35" class="float-fast"/>
+  <circle cx="755" cy="48" r="14" fill="#6366F1" fill-opacity="0.22" class="float-fast"/>
+  <circle cx="780" cy="74" r="22" fill="#FFFFFF" fill-opacity="0.5" class="float-slow"/>
+
+  <!-- Sparkles -->
+  <path d="M165 42 L168 50 L176 53 L168 56 L165 64 L162 56 L154 53 L162 50 Z" fill="#F59E0B" class="twinkle"/>
+  <path d="M695 112 L697.5 118.5 L704 121 L697.5 123.5 L695 130 L692.5 123.5 L686 121 L692.5 118.5 Z" fill="#EC4899" class="twinkle"/>
+  <path d="M718 40 L720 45 L725 47 L720 49 L718 54 L716 49 L711 47 L716 45 Z" fill="#6366F1" class="twinkle"/>
+
+  <!-- Text -->
+  <text x="425" y="88" text-anchor="middle" class="title">hey, i'm kha ✨</text>
+  <text x="425" y="122" text-anchor="middle" class="subtitle">python  •  ai &amp; backend  •  professional napper</text>
+</svg>

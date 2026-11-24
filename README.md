@@ -1,11 +1,15 @@
 <div align="center">
 
 <!-- BRIGHT & PLAYFUL HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E0F2FE,50:FCE7F3,100:FEF3C7&height=160&section=header&text=hey%2C%20i'm%20kha%20%E2%9C%A8&fontSize=44&fontColor=1E293B&fontAlignY=38&desc=python%20%E2%80%A2%20ai%20%26%20backend%20%E2%80%A2%20professional%20napper&descAlignY=60&descSize=15" alt="Hey I'm Kha Banner" />
+<p>
+  <img width="100%" src="./assets/header.svg" alt="Hey I'm Kha Banner" />
+</p>
 
-<a href="https://github.com/TranChiKha0395">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=shipping+python+%26+AI+backends+(when+awake);fastapi+%E2%80%A2+django+%E2%80%A2+llm+%2F+rag;first+impression+%E2%89%A0+first+conversation+%E2%9C%8C%EF%B8%8F;currently+accepting+naps+and+good+ideas" alt="Typing SVG" />
-</a>
+<p>
+  <a href="https://github.com/TranChiKha0395">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=shipping+python+%26+AI+backends+(when+awake);fastapi+%E2%80%A2+django+%E2%80%A2+llm+%2F+rag;first+impression+%E2%89%A0+first+conversation+%E2%9C%8C%EF%B8%8F;currently+accepting+naps+and+good+ideas" alt="Typing SVG" />
+  </a>
+</p>
 
 <p>
   <a href="mailto:enhokcon@gmail.com">
